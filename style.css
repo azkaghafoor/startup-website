@@ -11,4 +11,24 @@
   margin-right: 0;
 }
 :root {
+  /* All hero section color */
+  --all-heading-text-color: #ffffff;
+  --background-color: #74c69d;
+  --button-text-color: #000000;
+  /* Secoond section */
+  --see-green-color: #74c69d;
+  --h1-color: #000000;
+  --p-color: #000000;
+  --background-button-color: #212529;
+  --button-text-color: #ffffff;
+  /* Third section */
+  --h1-color: #212529;
+  --p-color: #21252980;
+  /* Forth section */
+  --h1-color: #212529;
+  --p-color: #21252980;
+  /* Fifth section */
+  --h5-color: #74c69d;
+  --h2-color: #212529;
+  --p-color: #21252980;
 }
