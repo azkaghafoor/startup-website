@@ -42,7 +42,7 @@
   display: flex;
 }
 .hero-logo h1 {
-  padding-left: 15px;
+  padding-left: 12px;
   font-size: 25px;
   margin-bottom: 10px;
 }
@@ -96,7 +96,7 @@
   margin-top: 15px;
 }
 .explore-button {
-  padding: 3px 20px;
+  padding: 3px 25px;
   border-radius: 3px;
   border: none;
   margin-bottom: 50px;
@@ -106,4 +106,205 @@
   height: 250px;
   margin-left: 160px;
   margin-top: 30px;
+}
+/* Logo section start */
+/* logo text */
+.logo-text {
+  text-align: center;
+  margin-top: 30px;
+}
+.logo-text h5 {
+  color: var(--fifth-h5-color);
+  margin-bottom: 6px;
+}
+.logo-text h1 {
+  color: var(--second-h1-color);
+  margin-bottom: 6px;
+}
+.logo-text p {
+  font-size: 15px;
+  color: var(--second-p-color);
+  margin-bottom: 10px;
+}
+/* logo imgs */
+.logo-img img {
+  width: 100px;
+}
+.google-img {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.microsoft-img {
+  margin-left: 80px;
+  margin-bottom: 2px;
+  height: 30px;
+  width: 30px;
+}
+.airbnb-img {
+  margin-top: 9px;
+  margin-left: 80px;
+}
+.facebook-img {
+  margin-left: 80px;
+  margin-bottom: 8px;
+}
+.spotify-img {
+  margin-left: 80px;
+  margin-bottom: 4px;
+}
+/* logo button */
+.logo-button {
+  margin-left: 460px;
+  margin-top: 25px;
+}
+.learn-button1 {
+  padding: 4px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--hero-button-text-color);
+  color: #ffffff;
+}
+/* group1 section start */
+/* group1 main */
+.main-group1 {
+  display: flex;
+}
+/* group1 img */
+.img-group1 img {
+  height: 250px;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+/* text */
+.text-group1 {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+.text-group1 p {
+  font-size: 10px;
+  margin-top: 8px;
+}
+/* button group1 */
+.group1-button {
+  margin-top: 20px;
+}
+.learn-button2 {
+  padding: 4px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--hero-button-text-color);
+  color: #ffffff;
+}
+/* group2 section start */
+/* group2 main */
+.group2-main {
+  display: flex;
+}
+/* group2 img */
+.img-group2 img {
+  height: 280px;
+  width: 270px;
+  margin-left: 130px;
+  margin-top: 40px;
+}
+/* text */
+.text-group2 {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+.text-group2 p {
+  font-size: 10px;
+  margin-top: 8px;
+}
+/* button group2 */
+.group2-button {
+  margin-top: 20px;
+}
+.learn-button3 {
+  padding: 4px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--hero-button-text-color);
+  color: #ffffff;
+}
+/* Team Talents Section Start */
+/* team text */
+.team-text {
+  text-align: center;
+  margin-top: 80px;
+}
+.team-text h6 {
+  font-size: 8px;
+  margin-bottom: 4px;
+  color: var(--fifth-h5-color);
+}
+.team-text p {
+  font-size: 10px;
+}
+/* Team Persons */
+.team-persons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+/* Person 1, 2, 3, 4 */
+.person-1,
+.person-2,
+.person-3,
+.person-4 {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 7px 20px;
+  height: fit-content;
+}
+.person-1 img,
+.person-2 img,
+.person-3 img,
+.person-4 img {
+  height: 100px;
+  width: 100px;
+}
+.person-1 h3,
+.person-2 h3,
+.person-3 h3,
+.person-4 h3 {
+  margin-top: 5px;
+  font-size: 13px;
+}
+.person-1 p,
+.person-2 p,
+.person-3 p,
+.person-4 p {
+  font-size: 8px;
+  margin-top: 5px;
+}
+/* Footer Section Start */
+/* Footer main */
+.footer-main {
+  background-color: var(--hero-background-color);
+  height: fit-content;
+}
+/* icons */
+.footer-main {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.icons i {
+  color: #ffffff;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer-date {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.footer-date p {
+  margin-top: 2px;
+  margin-left: 6px;
+  font-size: 12px;
 }
