@@ -158,7 +158,7 @@
   margin-top: 25px;
 }
 .learn-button1 {
-  padding: 4px 20px;
+  padding: 5px 20px;
   border: none;
   border-radius: 3px;
   background-color: var(--hero-button-text-color);
@@ -190,7 +190,7 @@
   margin-top: 20px;
 }
 .learn-button2 {
-  padding: 4px 20px;
+  padding: 5px 20px;
   border: none;
   border-radius: 3px;
   background-color: var(--hero-button-text-color);
@@ -222,7 +222,7 @@
   margin-top: 20px;
 }
 .learn-button3 {
-  padding: 4px 20px;
+  padding: 5px 20px;
   border: none;
   border-radius: 3px;
   background-color: var(--hero-button-text-color);
@@ -279,6 +279,18 @@
   font-size: 8px;
   margin-top: 5px;
 }
+/* Team button */
+.team-button {
+  margin-top: 35px;
+  margin-left: 450px;
+}
+.view-button4 {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--hero-button-text-color);
+  color: #ffffff;
+}
 /* Footer Section Start */
 /* Footer main */
 .footer-main {
@@ -287,7 +299,7 @@
 }
 /* icons */
 .footer-main {
-  margin-top: 60px;
+  margin-top: 40px;
   display: flex;
   justify-content: space-around;
 }
