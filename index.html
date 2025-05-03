@@ -15,24 +15,23 @@
     />
   </head>
   <body>
-    <section>
-      <div class="hero">
-        <header class="hero-header">
-          <nav class="hero-navbar">
-            <div class="hero-logo">
-              <img src="images/logo.svg" alt="" />
-              <h1>Start</h1>
-            </div>
-            <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">Portfolio</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">Contact</a></li>
-            </ul>
-          </nav>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <header class="site-header">
+          <div class="logo-branding">
+            <img src="images/logo.svg" alt="Startup Logo" />
+            <h1 class="site-title">Start</h1>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </header>
-        <!-- text div -->
-        <div class="hero-textmain">
+
+        <div class="hero-content">
           <div class="hero-text">
             <h5>Welcome</h5>
             <h3>
@@ -44,142 +43,139 @@
               Repellendus eos ab quam assumenda nesciunt <br />
               impedit, similique quod veniam iure sint, quo <br />dolores iste.
             </p>
-            <!--hero button div -->
-            <div class="hero-button">
-              <button class="explore-button">Explore</button>
-            </div>
+            <button class="explore-button">Explore</button>
           </div>
-          <!-- hero img div -->
-          <div class="hero-img">
-            <img src="images/hero.png" alt="" />
+          <div class="hero-image">
+            <img src="images/hero.png" alt="Hero Image" />
           </div>
         </div>
       </div>
     </section>
-    <!-- Logo Section -->
-    <section class="logo">
-      <div class="logo-main">
-        <div class="logo-text">
-          <h5>Partner</h5>
-          <h1>Lorem Ipsum Dolor</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consecteture <br />
-            adipiscing elit.
-          </p>
-        </div>
-        <!-- logo img -->
-        <div class="logo-img">
-          <img src="images/svg/google.svg" alt="" class="google-img" />
-          <img src="images/svg/microsoft.svg" alt="" class="microsoft-img" />
-          <img src="images/svg/airbnb.svg" alt="" class="airbnb-img" />
-          <img src="images/svg/facebook.svg" alt="" class="facebook-img" />
-          <img src="images/svg/spotify.svg" alt="" class="spotify-img" />
-        </div>
-        <!-- logo button -->
-        <div class="logo-button">
-          <button class="learn-button1">Learn More</button>
-        </div>
+
+    <!-- Partners Section -->
+    <section class="partners-section container">
+      <div class="partners-header">
+        <h5>Partner</h5>
+        <h1>Lorem Ipsum Dolor</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consecteture <br />
+          adipiscing elit.
+        </p>
+      </div>
+      <div class="partner-logos">
+        <img
+          src="images/svg/google.svg"
+          alt="Google Logo"
+          class="logo-google"
+        />
+        <img
+          src="images/svg/microsoft.svg"
+          alt="Microsoft Logo"
+          class="logo-microsoft"
+        />
+        <img
+          src="images/svg/airbnb.svg"
+          alt="Airbnb Logo"
+          class="logo-airbnb"
+        />
+        <img
+          src="images/svg/facebook.svg"
+          alt="Facebook Logo"
+          class="logo-facebook"
+        />
+        <img
+          src="images/svg/spotify.svg"
+          alt="Spotify Logo"
+          class="logo-spotify"
+        />
+      </div>
+      <button class="btn btn-learn-more">Learn More</button>
+    </section>
+
+    <!-- Features Section One -->
+    <section class="feature-section container">
+      <div class="feature-image">
+        <img src="images/img 1.png" alt="Feature Image 1" />
+      </div>
+      <div class="feature-content">
+        <h1>
+          Lorem ipsum, dolor sit <br />
+          amet consecteture
+        </h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicingelit. Repellendus
+          eos ab quam <br />
+          assumenda nesciunt impedit, similique quod veniam iure sint, quo
+          dolores iste. <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+          quaerat!
+        </p>
+        <button class="btn btn-learn-more">Learn More</button>
       </div>
     </section>
-    <!-- Group 1 section -->
-    <section class="group1">
-      <div class="main-group1">
-        <div class="img-group1">
-          <img src="images/img 1.png" alt="" />
-        </div>
-        <div class="text-group1">
-          <h1>
-            Lorem ipsum, dolor sit <br />
-            amet consecteture
-          </h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicingelit. Repellendus
-            eos ab quam <br />
-            assumenda nesciunt impedit, similique quod veniam iure sint, quo
-            dolores iste. <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
-            quaerat!
-          </p>
-          <!-- group1 button -->
-          <div class="group1-button">
-            <button class="learn-button2">Learn More</button>
-          </div>
-        </div>
+
+    <!-- Features Section Two (Reversed Layout) -->
+    <section class="feature-section reverse-layout container">
+      <div class="feature-image">
+        <img src="images/img 2.png" alt="Feature Image 2" />
+      </div>
+      <div class="feature-content">
+        <h1>
+          Lorem ipsum, dolor sit <br />
+          amet consecteture
+        </h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicingelit. Repellendus
+          eos ab quam <br />
+          assumenda nesciunt impedit, similique quod veniam iure sint, quo
+          dolores iste. <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+          quaerat!
+        </p>
+        <button class="btn btn-learn-more">Learn More</button>
       </div>
     </section>
-    <!-- Group 2 section -->
-    <section class="group2">
-      <div class="group2-main">
-        <div class="text-group2">
-          <h1>
-            Lorem ipsum, dolor sit <br />
-            amet consecteture
-          </h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicingelit. Repellendus
-            eos ab quam <br />
-            assumenda nesciunt impedit, similique quod veniam iure sint, quo
-            dolores iste. <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
-            quaerat!
-          </p>
-          <!-- group2 button -->
-          <div class="group2-button">
-            <button class="learn-button3">Learn More</button>
-          </div>
+
+    <!-- Team Section -->
+    <section class="team-section container">
+      <div class="team-intro">
+        <h6>TEAM</h6>
+        <h3>Our Talents</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing Quaerat, sit.
+          Lorem, ipsum dolor.
+        </p>
+      </div>
+      <div class="team-members">
+        <div class="team-member">
+          <img src="images/svg/person 1.svg" alt="Peg Legge" />
+          <h3>Peg Legge</h3>
+          <p>CEO</p>
         </div>
-        <!-- group2 img -->
-        <div class="img-group2">
-          <img src="images/img 2.png" alt="" />
+        <div class="team-member">
+          <img src="images/svg/person 2.svg" alt="Rechard Guerra" />
+          <h3>Rechard Guerra</h3>
+          <p>CTO</p>
+        </div>
+        <div class="team-member">
+          <img src="images/svg/person 3.svg" alt="Alexandra Stolz" />
+          <h3>Alexandra Stolz</h3>
+          <p>Designer</p>
+        </div>
+        <div class="team-member">
+          <img src="images/svg/person 4.svg" alt="Janet Bray" />
+          <h3>Janet Bray</h3>
+          <p>Developer</p>
         </div>
       </div>
+      <button class="btn btn-view-team">View Team</button>
     </section>
-    <!-- Teams Talents Section -->
-    <section class="team">
-      <div class="team-main">
-        <div class="team-text">
-          <h6>TEAM</h6>
-          <h3>Our Talents</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing
-            <br />Quaerat, sit. Lorem, ipsum dolor.
-          </p>
-        </div>
-        <div class="team-persons">
-          <!-- Person 1 -->
-          <div class="person-1">
-            <img src="images/svg/person 1.svg" alt="" />
-            <h3>Peg Legge</h3>
-            <p>CEO</p>
-          </div>
-          <!-- Person 2 -->
-          <div class="person-2">
-            <img src="images/svg/person 2.svg" alt="" />
-            <h3>Rechard Guerra</h3>
-            <p>CTO</p>
-          </div>
-          <!-- Person 3 -->
-          <div class="person-3">
-            <img src="images/svg/person 3.svg" alt="" />
-            <h3>Alexandra Stolz</h3>
-            <p>DESIGNER</p>
-          </div>
-          <!-- Person 4 -->
-          <div class="person-4">
-            <img src="images/svg/person 4.svg" alt="" />
-            <h3>Janet Bray</h3>
-            <p>DEVELOPER</p>
-          </div>
-        </div>
-        <div class="team-button">
-          <button class="view-button4">View Team</button>
-        </div>
-      </div>
-    </section>
-    <!-- Icon section start -->
-    <section class="footer">
-      <div class="footer-main">
-        <div class="icons">
+
+    <!-- Footer Section -->
+
+    <section class="site-footer">
+      <div class="footer-content container">
+        <div class="social-icons">
           <i class="fa-brands fa-facebook"></i>
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-twitter"></i>
@@ -187,10 +183,8 @@
           <i class="fa-brands fa-whatsapp"></i>
           <i class="fa-brands fa-youtube"></i>
         </div>
-        <div class="footer-date">
-          <div class="copyright-icon">
-            <i class="fa-solid fa-copyright"></i>
-          </div>
+        <div class="footer-info">
+          <i class="fa-solid fa-copyright"></i>
           <p>Start, 2022. All rights reserved</p>
         </div>
       </div>
