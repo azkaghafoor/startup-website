@@ -9,6 +9,8 @@
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 :root {
   /* Hero section colors */
@@ -137,12 +139,13 @@ a {
 /* Feature section One/Two */
 .feature-section {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin-top: 70px;
 }
 .feature-content h1 {
-  font-size: 35px;
+  font-size: 32px;
   margin-bottom: 10px;
 }
 .feature-content p {
@@ -155,6 +158,9 @@ a {
 /* Team Section Start */
 .team-section {
   margin-top: 80px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .team-intro {
   text-align: center;
@@ -173,6 +179,7 @@ a {
 }
 .team-members {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 100px;
   margin-top: 40px;
@@ -193,7 +200,6 @@ p {
   color: var(--fourth-p-color);
 }
 .btn-view-team {
-  margin-left: 670px;
   margin-top: 40px;
   padding: 7px 27px;
   border-radius: 4px;
@@ -207,17 +213,91 @@ p {
 }
 .footer-content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  padding: 30px 0px;
+  padding: 30px 30px;
   color: var(--hero-heading-text-color);
 }
 .footer-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 10px;
 }
 .social-icons {
   margin-top: 13px;
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
+}
+/* menu-icon start */
+.menu-icon i {
+  color: #ffffff;
+  font-size: 40px;
+}
+.menu-icon {
+  display: none;
+}
+/* media section start */
+@media (max-width: 1024px) {
+  .hero-content {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .hero-image img {
+    max-width: 353px;
+  }
+}
+@media (max-width: 819px) {
+  .nav-links {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+}
+@media (max-width: 320px) {
+  .hero-image img {
+    max-width: 253px;
+  }
+}
+/* Feature section two */
+@media (max-width: 630px) {
+  .feature-image img {
+    max-width: 353px;
+    align-items: center;
+  }
+}
+@media (max-width: 320px) {
+  .feature-image img {
+    max-width: 253px;
+  }
+  .feature-content h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 375px) {
+  .feature-content h1 {
+    font-size: 26px;
+  }
+  .feature-image img {
+    max-width: 295px;
+  }
+}
+@media (max-width: 1024px) {
+  .feature-section {
+    justify-content: space-evenly;
+  }
+}
+/* Team Section Start */
+@media (max-width: 1024px) {
+  .btn-view-team {
+    align-items: center;
+  }
+}
+@media (max-width: 458px) {
+  .footer-content {
+    text-align: center;
+    justify-content: center;
+  }
 }
