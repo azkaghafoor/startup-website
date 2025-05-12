@@ -224,6 +224,9 @@ p {
   align-items: center;
   gap: 10px;
 }
+.footer-info i {
+  margin-top: 10px;
+}
 .social-icons {
   margin-top: 13px;
   display: flex;

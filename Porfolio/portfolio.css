@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Crimson Text", serif;
+}
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+:root {
+  /* Hero section colors */
+  --hero-heading-text-color: #ffffff;
+  --hero-background-color: #74c69d;
+  --hero-button-text-color: #000000;
+
+  /* Second section colors */
+  --second-see-green-color: #74c69d;
+  --second-h1-color: #000000;
+  --second-p-color: #000000;
+  --second-button-background-color: #212529;
+  --second-button-text-color: #ffffff;
+
+  /* Third section colors */
+  --third-h1-color: #212529;
+  --third-p-color: #21252980;
+
+  /* Fourth section colors */
+  --fourth-h1-color: #212529;
+  --fourth-p-color: #21252980;
+
+  /* Fifth section colors */
+  --fifth-h5-color: #74c69d;
+  --fifth-h2-color: #212529;
+  --fifth-p-color: #21252980;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--hero-heading-text-color);
+  padding-right: 50px;
+}
+
+.hero-section {
+  background-color: var(--hero-background-color);
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.logo-branding {
+  display: flex;
+  align-items: center;
+}
+.site-title {
+  color: var(--hero-heading-text-color);
+  font-size: 40px;
+  padding-left: 10px;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 22px;
+}
+.menu-icon i {
+  color: #ffffff;
+  font-size: 40px;
+}
+.menu-icon {
+  display: none;
+}
+@media (max-width: 819px) {
+  .nav-links {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+}
+/* Second Section Start */
+.portfolio-section {
+  text-align: center;
+  margin-top: 45px;
+}
+.portfolio-header h4 {
+  letter-spacing: 5px;
+  color: var(--second-see-green-color);
+  margin-bottom: 7px;
+}
+.portfolio-header h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.partners-header p {
+  margin-bottom: 30px;
+}
+/* Website Designs Section Start */
+.website-designs {
+  text-align: center;
+}
+.web-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.web-images img {
+  margin-top: 20px;
+}
+.btn-learn-more {
+  margin-top: 50px;
+  border: none;
+  padding: 8px 35px;
+  border-radius: 4px;
+  font-size: 15px;
+  color: var(--hero-heading-text-color);
+  background-color: var(--hero-button-text-color);
+}
+/* Footer Section Start */
+.site-footer {
+  margin-top: 50px;
+  background-color: var(--hero-background-color);
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 30px;
+  color: var(--hero-heading-text-color);
+}
+.footer-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.footer-info i {
+  margin-top: 5px;
+}
+.social-icons {
+  margin-top: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+@media (max-width: 638px) {
+  .web-images img {
+    max-width: 330px;
+  }
+}
